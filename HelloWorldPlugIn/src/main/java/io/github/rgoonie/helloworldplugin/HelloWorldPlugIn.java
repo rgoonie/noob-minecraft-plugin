@@ -6,6 +6,7 @@ public class HelloWorldPlugIn extends JavaPlugin {
 
     @Override
     public void onEnable(){
+        this.getCommand("hello").setExecutor(new CommandHello());
         getLogger().info("HelloWorldPlugIn has been Enabled!");
     }
 
