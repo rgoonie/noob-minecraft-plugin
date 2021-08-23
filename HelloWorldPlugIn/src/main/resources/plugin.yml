@@ -2,3 +2,9 @@ name: HelloWorldPlugIn
 main: io.github.rgoonie.helloworldplugin.HelloWorldPlugIn
 version: 1.0
 description: Our first plugin
+
+commands:
+  hello:
+    description: You say hello, and get back world
+    usage: /hello
+    permission: helloworldplugin.CommandHello
